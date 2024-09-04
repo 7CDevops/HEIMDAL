@@ -1,0 +1,32 @@
+2023-07-05 11:14:54,474 INFO Kivy: v2.1.0
+2023-07-05 11:14:54,474 INFO Kivy: Installed at "C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI11242\kivy\__init__.pyc"
+2023-07-05 11:14:54,474 INFO Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2023-07-05 11:14:54,475 INFO Python: Interpreter at "C:\Users\a.colas\PycharmProjects\heimdal\dist\Heimdall.exe"
+2023-07-05 11:14:54,583 INFO Factory: 189 symbols loaded
+2023-07-05 11:14:54,656 INFO Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2023-07-05 11:14:54,792 INFO KivyMD: 1.1.1, git-Unknown, 2023-04-03 (installed at "C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI11242\kivymd\__init__.pyc")
+2023-07-05 11:14:54,803 INFO Text: Provider: sdl2
+2023-07-05 11:14:54,842 INFO Window: Provider: sdl2
+2023-07-05 11:14:55,422 INFO GL: Using the "OpenGL" graphics system
+2023-07-05 11:14:55,442 INFO GL: GLEW initialization succeeded
+2023-07-05 11:14:55,443 INFO GL: Backend used <glew>
+2023-07-05 11:14:55,443 INFO GL: OpenGL version <b'4.6.0 Compatibility Profile Context 22.20.42.09.221129'>
+2023-07-05 11:14:55,443 INFO GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-07-05 11:14:55,444 INFO GL: OpenGL renderer <b'AMD Radeon(TM) Vega 3 Graphics'>
+2023-07-05 11:14:55,444 INFO GL: OpenGL parsed version: 4, 6
+2023-07-05 11:14:55,444 INFO GL: Shading version <b'4.60'>
+2023-07-05 11:14:55,444 INFO GL: Texture max size <16384>
+2023-07-05 11:14:55,445 INFO GL: Texture max units <32>
+2023-07-05 11:14:55,539 INFO Window: auto add sdl2 input provider
+2023-07-05 11:14:55,542 INFO Window: virtual keyboard not allowed, single mode, not docked
+2023-07-05 11:14:56,616 INFO Aucun fichier de whatsappelements
+2023-07-05 11:14:56,617 INFO Lancement de l'application
+2023-07-05 11:14:56,632 WARNING Factory: Ignored class "CustomTextInput" re-declaration. Current -  module: None, cls: <class 'MyApp.CustomTextInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI11242\myapp.kv.
+2023-07-05 11:14:56,633 WARNING Factory: Ignored class "RoundedInput" re-declaration. Current -  module: None, cls: <class 'MyApp.RoundedInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI11242\myapp.kv.
+2023-07-05 11:15:02,359 INFO GL: NPOT texture support is available
+2023-07-05 11:15:02,362 INFO GL: Unpack subimage support is available
+2023-07-05 11:15:02,394 WARNING Deprecated property "<VariableListProperty name=padding_x>" of object "<MyApp.RoundedInput object at 0x0000021E7C6C2040>" was accessed, it will be removed in a future version
+2023-07-05 11:15:02,464 ERROR Fichier de configuration inexistant
+2023-07-05 11:15:02,470 INFO Base: Start application main loop
+2023-07-05 11:15:10,824 INFO Base: Leaving application in progress...
+2023-07-05 11:15:10,954 INFO Fermeture de Heimdall par l'utilisateur

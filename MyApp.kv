@@ -1,0 +1,439 @@
+#:import C kivy.utils.get_color_from_hex
+#:import NoTransition kivy.uix.screenmanager.NoTransition
+<MainScreen>:
+    orientation: 'vertical'
+    resizable: 0
+    ActionBar:
+        ActionView:
+            use_separator: True
+            ActionPrevious:
+                title: ''
+                with_previous: False
+                app_icon: ''
+                app_icon_width: 10
+                app_icon_height: 10
+                size_hint_x: None
+                width: len(self.title) * 20
+            ActionButton:
+                text: 'Veille'
+                on_release:  app.root.ids.manager.current = 'veille'
+            ActionButton:
+                text: 'Recherche twitter'
+                on_release:  app.root.ids.manager.current = 'recherche'
+            ActionButton:
+                id: ongletParam
+                text: 'Parametres'
+                on_release:  app.root.ids.manager.current = 'parametres'
+    ScreenManagement:
+        id:manager
+        transition: NoTransition()
+
+<VeilleScreen>:
+    Image:
+        id: my_image
+        source: root.image_source
+        size: root.width, root.height
+        allow_stretch: True
+        keep_ratio: False
+    GridLayout:
+        rows:4
+        spacing:5
+        Label:
+            id:labelTotalCount
+            font_size:30
+        Label:
+            id:labelTwitterCount
+            font_size:30
+        Label:
+            id:labelFacebookCount
+            font_size:30
+        GridLayout:
+            cols:2
+            CustomButton:
+                background_color: C('#a6b3b8')
+                id:LaunchButton
+                height: 100
+                bold:True
+                font_size:18
+                pos_hint: {'center_x': .5, 'center_y': .50}
+                text:"Lancer l'écoute"
+                on_press: root.disableButton()
+                on_press: app.root.ids.ongletParam.disabled = True
+                on_release: root.listeningWhatsAppSession()
+            CustomButton:
+                background_color: C('#a6b3b8')
+                id:StopButton
+                height: 100
+                bold:True
+                font_size:18
+                pos_hint: {'center_x': .5, 'center_y': .50}
+                text:"Arrêter l'écoute"
+                on_release: root.stopWhatsAppSession()
+                on_release: app.root.ids.ongletParam.disabled = False
+
+<CustomTextInput@TextInput>:
+    font_size:15
+    on_text: root.update_padding()
+    padding_x: (self.width - self.text_width) / 2
+
+<CustomButton@Button>:
+    on_press: self.background_color = C('#0c99c8')
+    on_release: self.background_color = C('#a6b3b8')
+
+<RechercheScreen>:
+    Image:
+        id: my_image
+        source: root.image_source
+        size: root.width, root.height
+        allow_stretch: True
+        keep_ratio: False
+    GridLayout:
+        cols:1
+        GridLayout:
+            cols:4
+            GridLayout:
+                rows:2
+                canvas.before:
+                    Color:
+                        rgba: 1, 1, 0, 0.6
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius:[15]
+                Label:
+                    text: "Search"
+                Check:
+                    id: cbSearch
+                    active:True
+                    on_active: root.showInputSearch()
+            GridLayout:
+                rows:2
+                canvas.before:
+                    Color:
+                        rgba: 0, 1, 0, 0.6
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius:[15]
+                Label:
+                    text: "Nom user"
+                Check:
+                    id: cbUser
+                    on_active: root.showInputNomUser()
+            GridLayout:
+                rows:2
+                canvas.before:
+                    Color:
+                        rgba: 0, 0, 1, 0.6
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius:[15]
+                Label:
+                    text: "Numéro de tweet"
+                Check:
+                    id: cbTweet
+                    on_active: root.showInputNumeroTweet()
+            GridLayout:
+                rows:2
+                canvas.before:
+                    Color:
+                        rgba: 1, 0, 0, 0.6
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius:[15]
+                Label:
+                    text: "Hashtag"
+                Check:
+                    id: cbHashtag
+                    on_active: root.showInputHashtag()
+        FloatLayout:
+            Label:
+                text:"Valeur :"
+                font_size:20
+                pos_hint: {'center_x': .25, 'center_y': .5}
+                size_hint_x:None
+                size_hint_y:None
+                width:50
+                height: 20
+            RoundedInput:
+                id:valeurInput
+                pos_hint: {'center_x': .6, 'center_y': .5}
+                size_hint_x:None
+                size_hint_y:None
+                width:400
+                height: 40
+        FloatLayout:
+            Label:
+                id:labelMaxTweets
+                text:"Max Tweets :"
+                font_size:20
+                pos_hint: {'center_x': .25, 'center_y': .5}
+                size_hint_x:None
+                size_hint_y:None
+                width:50
+                height: 20
+            RoundedInput:
+                id:maxTweetsInput
+                pos_hint: {'center_x': .6, 'center_y': .5}
+                size_hint_x:None
+                size_hint_y:None
+                width:400
+                height: 40
+                disabled: cbTweet.active
+        FloatLayout:
+            Label:
+                id:labelDateDeb
+                text:"Date début:"
+                font_size:20
+                pos_hint: {'center_x': .25, 'center_y': .5}
+                size_hint_x:None
+                size_hint_y:None
+                width:50
+                height: 20
+            MDIconButton:
+                id:buttonDateDeb
+                icon:'calendar'
+                size_hint : 0.07, 0.50
+                on_press: root.show_calendar_pickerDateDeb()
+                pos_hint: {'center_x': .4, 'center_y': .5}
+                canvas.before:
+                    Color:
+                        rgba: 0, 1, 1, 0.3
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.width, self.height
+                        radius:[15]
+            RoundedInput:
+                id:dateDeb
+                pos_hint: {'center_x': .6, 'center_y': .5}
+                size_hint_x:None
+                size_hint_y:None
+                width:100
+                height: 40
+        FloatLayout:
+            Label:
+                id:labelDateFin
+                text:"Date fin:"
+                font_size:20
+                pos_hint: {'center_x': .25, 'center_y': .5}
+                size_hint_x:None
+                size_hint_y:None
+                width:50
+                height: 20
+            MDIconButton:
+                id:buttonDateFin
+                icon:'calendar'
+                size_hint : 0.07, 0.50
+                on_press: root.show_calendar_pickerDateFin()
+                pos_hint: {'center_x': .4, 'center_y': .5}
+                canvas.before:
+                    Color:
+                        rgba: 0, 1, 1, 0.3
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.width, self.height
+                        radius:[15]
+            RoundedInput:
+                id:dateFin
+                pos_hint: {'center_x': .6, 'center_y': .5}
+                size_hint_x:None
+                size_hint_y:None
+                width:100
+                height: 40
+        FloatLayout:
+            Label:
+                id:labelAfficheSearch
+                font_size:20
+                bold:True
+                pos_hint: {'center_x': .5, 'center_y': .5}
+                size_hint_x:None
+                halign:'center'
+                valign:'middle'
+                size_hint_y:None
+                width:50
+                height: 20
+        FloatLayout:
+            CustomButton:
+                background_color: C('#a6b3b8')
+                id:SearchButton
+                size_hint_y:None
+                height: 100
+                bold:True
+                font_size:18
+                pos_hint: {'center_x': .5, 'center_y': .50}
+                text:"Recherche tweets"
+                on_press:root.disableButton()
+                on_release:root.searchTweets()
+
+
+<ParametresScreen>:
+    Image:
+        id: my_image
+        source: root.image_source
+        size: root.width, root.height
+        allow_stretch: True
+        keep_ratio: False
+
+    FloatLayout:
+        Label:
+            text:"Session WhatsApp :"
+            font_size:20
+            pos_hint: {'center_x': .15, 'center_y': .9}
+            size_hint_x:None
+            size_hint_y:None
+            width:50
+            height: 20
+        MDIconButton:
+            icon:'folder-search'
+            size_hint : 0.07, 0.10
+            on_press: root.open_explorer_session()
+            pos_hint: {'center_x': .30, 'center_y': .9}
+            canvas.before:
+                Color:
+                    rgba: 0, 1, 1, 0.3
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.width, self.height
+                    radius:[15]
+        RoundedInput:
+            id:sessionInput
+            pos_hint: {'center_x': .66, 'center_y': .9}
+            size_hint_x:None
+            size_hint_y:None
+            width:600
+            height: 40
+        Label:
+            text:"Répertoire de partage:"
+            font_size:20
+            pos_hint: {'center_x': .15, 'center_y': .7}
+            size_hint_x:None
+            size_hint_y:None
+            width:50
+            height: 20
+        MDIconButton:
+            icon:'folder-search'
+            size_hint : 0.07, 0.10
+            on_press: root.open_explorer_partage()
+            pos_hint: {'center_x': .30, 'center_y': .7}
+            canvas.before:
+                Color:
+                    rgba: 0, 1, 1, 0.3
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.width, self.height
+                    radius:[15]
+        RoundedInput:
+            id:savePathInput
+            pos_hint: {'center_x': .66, 'center_y': .7}
+            size_hint_x:None
+            size_hint_y:None
+            width:600
+            height: 40
+        Label:
+            text:"Heure rapport:"
+            font_size:20
+            pos_hint: {'center_x': .15, 'center_y': .5}
+            size_hint_x:None
+            size_hint_y:None
+            width:50
+            height: 20
+        MDIconButton:
+            id:buttonTime
+            icon:'clock'
+            size_hint : 0.07, 0.10
+            on_press: root.show_time_picker()
+            pos_hint: {'center_x': .30, 'center_y': .5}
+            canvas.before:
+                Color:
+                    rgba: 0, 1, 1, 0.3
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.width, self.height
+                    radius:[15]
+        RoundedInput:
+            id:inputTime
+            pos_hint: {'center_x': .66, 'center_y': .5}
+            size_hint_x:None
+            size_hint_y:None
+            width:250
+            height: 40
+        Label:
+            text:"Message rapport :"
+            font_size:20
+            pos_hint: {'center_x': .15, 'center_y': .3}
+            size_hint_x:None
+            size_hint_y:None
+            width:50
+            height: 20
+        MDIconButton:
+            id:messageButton
+            icon:'content-save'
+            size_hint : 0.07, 0.10
+            on_press: root.save_message_rapport()
+            pos_hint: {'center_x': .30, 'center_y': .3}
+            canvas.before:
+                Color:
+                    rgba: 0, 1, 1, 0.3
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.width, self.height
+                    radius:[15]
+        RoundedInput:
+            id:messageInput
+            pos_hint: {'center_x': .66, 'center_y': .3}
+            size_hint_x:None
+            size_hint_y:None
+            width:600
+            height: 40
+
+<RoundedInput@TextInput>:
+    font_size: '15dp'
+    on_text: root.update_padding()
+    padding_x: (self.width - self.text_width) / 2
+    size_hint_y:None
+    height:30
+    background_color: C('#0f192e')
+    cursor_color: C('#ffffff')
+    foreground_color: C('#ffffff')
+    canvas.after:
+        Color:
+            rgb: C('#0f192e')
+        Ellipse:
+            angle_start:180
+            angle_end:360
+            pos:(self.pos[0] - self.size[1]/2.0, self.pos[1])
+            size: (self.size[1], self.size[1])
+        Ellipse:
+            angle_start:0
+            angle_end:180
+            pos: (self.size[0] + self.pos[0] - self.size[1]/2.0, self.pos[1])
+            size: (self.size[1], self.size[1])
+        Color:
+            rgba: C('#3f92db')
+        Line:
+            points: self.pos[0] , self.pos[1], self.pos[0] + self.size[0], self.pos[1]
+        Line:
+            points: self.pos[0], self.pos[1] + self.size[1], self.pos[0] + self.size[0], self.pos[1] + self.size[1]
+        Line:
+            ellipse: self.pos[0] - self.size[1]/2.0, self.pos[1], self.size[1], self.size[1], 180, 360
+        Line:
+            ellipse: self.size[0] + self.pos[0] - self.size[1]/2.0, self.pos[1], self.size[1], self.size[1], 0, 180
+
+# Custom composant
+<Check@MDCheckbox>:
+    group: 'group'
+    size: dp(48), dp(48)
+
+<ScreenManagement>:
+    VeilleScreen:
+        id: veille
+        name: 'veille'
+    RechercheScreen:
+        id: recherche
+        name: 'recherche'
+    ParametresScreen:
+        id: parametres
+        name: 'parametres'
+

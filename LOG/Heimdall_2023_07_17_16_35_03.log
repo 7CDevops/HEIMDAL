@@ -1,0 +1,38 @@
+2023-07-17 16:35:03,498 INFO deps: Successfully imported "kivy_deps.angle" 0.3.3
+2023-07-17 16:35:03,499 INFO deps: Successfully imported "kivy_deps.glew" 0.3.1
+2023-07-17 16:35:03,499 INFO deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2023-07-17 16:35:03,499 INFO Kivy: v2.1.0
+2023-07-17 16:35:03,500 INFO Kivy: Installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\__init__.py"
+2023-07-17 16:35:03,500 INFO Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2023-07-17 16:35:03,500 INFO Python: Interpreter at "C:\Users\a.colas\PycharmProjects\heimdal\venv\Scripts\python.exe"
+2023-07-17 16:35:03,736 INFO Factory: 189 symbols loaded
+2023-07-17 16:35:03,914 INFO Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2023-07-17 16:35:04,079 INFO KivyMD: 1.1.1, git-Unknown, 2023-04-03 (installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivymd\__init__.py")
+2023-07-17 16:35:04,098 INFO Text: Provider: sdl2
+2023-07-17 16:35:04,195 INFO Window: Provider: sdl2
+2023-07-17 16:35:04,612 INFO GL: Using the "OpenGL" graphics system
+2023-07-17 16:35:04,628 INFO GL: GLEW initialization succeeded
+2023-07-17 16:35:04,629 INFO GL: Backend used <glew>
+2023-07-17 16:35:04,629 INFO GL: OpenGL version <b'4.6.0 Compatibility Profile Context 22.20.42.09.221129'>
+2023-07-17 16:35:04,629 INFO GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-07-17 16:35:04,629 INFO GL: OpenGL renderer <b'AMD Radeon(TM) Vega 3 Graphics'>
+2023-07-17 16:35:04,629 INFO GL: OpenGL parsed version: 4, 6
+2023-07-17 16:35:04,629 INFO GL: Shading version <b'4.60'>
+2023-07-17 16:35:04,630 INFO GL: Texture max size <16384>
+2023-07-17 16:35:04,630 INFO GL: Texture max units <32>
+2023-07-17 16:35:04,663 INFO Window: auto add sdl2 input provider
+2023-07-17 16:35:04,666 INFO Window: virtual keyboard not allowed, single mode, not docked
+2023-07-17 16:35:07,712 INFO Lancement de l'application
+2023-07-17 16:35:07,727 WARNING Factory: Ignored class "CustomTextInput" re-declaration. Current -  module: None, cls: <class 'MyApp.CustomTextInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-07-17 16:35:07,727 WARNING Factory: Ignored class "RoundedInput" re-declaration. Current -  module: None, cls: <class 'MyApp.RoundedInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-07-17 16:35:07,727 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 16:35:07,768 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 16:35:07,769 INFO Chargement des stats
+2023-07-17 16:35:07,805 INFO GL: NPOT texture support is available
+2023-07-17 16:35:07,811 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 16:35:07,832 WARNING Deprecated property "<VariableListProperty name=padding_x>" of object "<MyApp.RoundedInput object at 0x000001F049F485F0>" was accessed, it will be removed in a future version
+2023-07-17 16:35:07,853 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 16:35:07,922 INFO Chargement de la configuration
+2023-07-17 16:35:07,927 INFO Base: Start application main loop
+2023-07-17 17:23:36,075 INFO Base: Leaving application in progress...
+2023-07-17 17:23:36,171 INFO Fermeture de Heimdall par l'utilisateur

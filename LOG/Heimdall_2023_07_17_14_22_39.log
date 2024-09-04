@@ -1,0 +1,113 @@
+2023-07-17 14:22:39,608 INFO deps: Successfully imported "kivy_deps.angle" 0.3.3
+2023-07-17 14:22:39,609 INFO deps: Successfully imported "kivy_deps.glew" 0.3.1
+2023-07-17 14:22:39,609 INFO deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2023-07-17 14:22:39,609 INFO Kivy: v2.1.0
+2023-07-17 14:22:39,609 INFO Kivy: Installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\__init__.py"
+2023-07-17 14:22:39,610 INFO Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2023-07-17 14:22:39,610 INFO Python: Interpreter at "C:\Users\a.colas\PycharmProjects\heimdal\venv\Scripts\python.exe"
+2023-07-17 14:22:39,797 INFO Factory: 189 symbols loaded
+2023-07-17 14:22:39,938 INFO Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2023-07-17 14:22:40,086 INFO KivyMD: 1.1.1, git-Unknown, 2023-04-03 (installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivymd\__init__.py")
+2023-07-17 14:22:40,112 INFO Text: Provider: sdl2
+2023-07-17 14:22:40,238 INFO Window: Provider: sdl2
+2023-07-17 14:22:40,593 INFO GL: Using the "OpenGL" graphics system
+2023-07-17 14:22:40,609 INFO GL: GLEW initialization succeeded
+2023-07-17 14:22:40,609 INFO GL: Backend used <glew>
+2023-07-17 14:22:40,610 INFO GL: OpenGL version <b'4.6.0 Compatibility Profile Context 22.20.42.09.221129'>
+2023-07-17 14:22:40,610 INFO GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-07-17 14:22:40,610 INFO GL: OpenGL renderer <b'AMD Radeon(TM) Vega 3 Graphics'>
+2023-07-17 14:22:40,610 INFO GL: OpenGL parsed version: 4, 6
+2023-07-17 14:22:40,610 INFO GL: Shading version <b'4.60'>
+2023-07-17 14:22:40,610 INFO GL: Texture max size <16384>
+2023-07-17 14:22:40,611 INFO GL: Texture max units <32>
+2023-07-17 14:22:40,642 INFO Window: auto add sdl2 input provider
+2023-07-17 14:22:40,647 INFO Window: virtual keyboard not allowed, single mode, not docked
+2023-07-17 14:22:44,237 INFO Lancement de l'application
+2023-07-17 14:22:44,263 WARNING Factory: Ignored class "CustomTextInput" re-declaration. Current -  module: None, cls: <class 'MyApp.CustomTextInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-07-17 14:22:44,263 WARNING Factory: Ignored class "RoundedInput" re-declaration. Current -  module: None, cls: <class 'MyApp.RoundedInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-07-17 14:22:44,263 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 14:22:44,324 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 14:22:44,327 INFO Chargement des stats
+2023-07-17 14:22:44,380 INFO GL: NPOT texture support is available
+2023-07-17 14:22:44,386 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 14:22:44,419 WARNING Deprecated property "<VariableListProperty name=padding_x>" of object "<MyApp.RoundedInput object at 0x00000273A93785F0>" was accessed, it will be removed in a future version
+2023-07-17 14:22:44,453 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 14:22:44,621 INFO Chargement de la configuration
+2023-07-17 14:22:44,634 INFO Base: Start application main loop
+2023-07-17 14:22:45,944 INFO Recupération chemins de session et partage
+2023-07-17 14:22:45,946 INFO Chargement des contributeurs
+2023-07-17 14:22:45,947 INFO ====== WebDriver manager ======
+2023-07-17 14:22:47,535 INFO Get LATEST chromedriver version for google-chrome 114.0.5735
+2023-07-17 14:22:48,645 INFO Driver [C:\Users\a.colas\.wdm\drivers\chromedriver\win32\114.0.5735\chromedriver.exe] found in cache
+2023-07-17 14:22:50,442 INFO Lancement de la session WhatsApp avec la session renseignée
+2023-07-17 14:22:54,955 INFO Lancement de la session
+2023-07-17 14:22:54,958 INFO Chargement de la configuration
+2023-07-17 14:22:56,534 WARNING stderr: Exception in thread listen:
+2023-07-17 14:22:56,535 WARNING stderr: Traceback (most recent call last):
+2023-07-17 14:22:56,535 WARNING stderr:   File "C:\Users\a.colas\AppData\Local\Programs\Python\Python39\lib\threading.py", line 980, in _bootstrap_inner
+2023-07-17 14:22:56,543 WARNING stderr:     self.run()
+2023-07-17 14:22:56,543 WARNING stderr:   File "C:\Users\a.colas\AppData\Local\Programs\Python\Python39\lib\threading.py", line 917, in run
+2023-07-17 14:22:56,544 WARNING stderr:     self._target(*self._args, **self._kwargs)
+2023-07-17 14:22:56,544 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\whatsapp.py", line 284, in listenNewMessage
+2023-07-17 14:22:56,549 WARNING stderr:     for contact in divContainer.find_elements(*WhatsAppElements.existingConversation):
+2023-07-17 14:22:56,549 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 448, in find_elements
+2023-07-17 14:22:56,554 WARNING stderr:     return self._execute(Command.FIND_CHILD_ELEMENTS, {"using": by, "value": value})["value"]
+2023-07-17 14:22:56,554 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 404, in _execute
+2023-07-17 14:22:56,555 WARNING stderr:     return self._parent.execute(command, params)
+2023-07-17 14:22:56,555 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+2023-07-17 14:22:56,560 WARNING stderr:     self.error_handler.check_response(response)
+2023-07-17 14:22:56,560 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+2023-07-17 14:22:56,565 WARNING stderr:     raise exception_class(message, screen, stacktrace)
+2023-07-17 14:22:56,565 WARNING stderr: selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+2023-07-17 14:22:56,565 WARNING stderr:   (Session info: chrome=114.0.5735.199)
+2023-07-17 14:22:56,565 WARNING stderr: Stacktrace:
+2023-07-17 14:22:56,566 WARNING stderr: Backtrace:
+2023-07-17 14:22:56,566 WARNING stderr: 	GetHandleVerifier [0x00C9A813+48355]
+2023-07-17 14:22:56,566 WARNING stderr: 	(No symbol) [0x00C2C4B1]
+2023-07-17 14:22:56,566 WARNING stderr: 	(No symbol) [0x00B35358]
+2023-07-17 14:22:56,566 WARNING stderr: 	(No symbol) [0x00B387A1]
+2023-07-17 14:22:56,566 WARNING stderr: 	(No symbol) [0x00B399E1]
+2023-07-17 14:22:56,566 WARNING stderr: 	(No symbol) [0x00B39A80]
+2023-07-17 14:22:56,566 WARNING stderr: 	(No symbol) [0x00B6061C]
+2023-07-17 14:22:56,566 WARNING stderr: 	(No symbol) [0x00B60B3B]
+2023-07-17 14:22:56,567 WARNING stderr: 	(No symbol) [0x00B59D41]
+2023-07-17 14:22:56,567 WARNING stderr: 	(No symbol) [0x00B7A784]
+2023-07-17 14:22:56,567 WARNING stderr: 	(No symbol) [0x00B59A36]
+2023-07-17 14:22:56,567 WARNING stderr: 	(No symbol) [0x00B7AA94]
+2023-07-17 14:22:56,567 WARNING stderr: 	(No symbol) [0x00B8C922]
+2023-07-17 14:22:56,567 WARNING stderr: 	(No symbol) [0x00B7A536]
+2023-07-17 14:22:56,567 WARNING stderr: 	(No symbol) [0x00B582DC]
+2023-07-17 14:22:56,567 WARNING stderr: 	(No symbol) [0x00B593DD]
+2023-07-17 14:22:56,567 WARNING stderr: 	GetHandleVerifier [0x00EFAABD+2539405]
+2023-07-17 14:22:56,567 WARNING stderr: 	GetHandleVerifier [0x00F3A78F+2800735]
+2023-07-17 14:22:56,567 WARNING stderr: 	GetHandleVerifier [0x00F3456C+2775612]
+2023-07-17 14:22:56,567 WARNING stderr: 	GetHandleVerifier [0x00D251E0+616112]
+2023-07-17 14:22:56,568 WARNING stderr: 	(No symbol) [0x00C35F8C]
+2023-07-17 14:22:56,568 WARNING stderr: 	(No symbol) [0x00C32328]
+2023-07-17 14:22:56,568 WARNING stderr: 	(No symbol) [0x00C3240B]
+2023-07-17 14:22:56,568 WARNING stderr: 	(No symbol) [0x00C24FF7]
+2023-07-17 14:22:56,568 WARNING stderr: 	BaseThreadInitThunk [0x774A00C9+25]
+2023-07-17 14:22:56,568 WARNING stderr: 	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+2023-07-17 14:22:56,568 WARNING stderr: 	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+2023-07-17 14:22:56,568 WARNING stderr: 
+2023-07-17 14:27:34,337 INFO Base: Leaving application in progress...
+2023-07-17 14:27:34,337 WARNING stderr: Traceback (most recent call last):
+2023-07-17 14:27:34,337 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\MyApp.py", line 554, in <module>
+2023-07-17 14:27:34,338 WARNING stderr:     MyApp().run()
+2023-07-17 14:27:34,338 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\app.py", line 955, in run
+2023-07-17 14:27:34,340 WARNING stderr:     runTouchApp()
+2023-07-17 14:27:34,340 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2023-07-17 14:27:34,340 WARNING stderr:     EventLoop.mainloop()
+2023-07-17 14:27:34,340 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\base.py", line 339, in mainloop
+2023-07-17 14:27:34,340 WARNING stderr:     self.idle()
+2023-07-17 14:27:34,341 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\base.py", line 379, in idle
+2023-07-17 14:27:34,341 WARNING stderr:     Clock.tick()
+2023-07-17 14:27:34,341 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+2023-07-17 14:27:34,342 WARNING stderr:     self.post_idle(ts, self.idle())
+2023-07-17 14:27:34,342 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\clock.py", line 689, in idle
+2023-07-17 14:27:34,343 WARNING stderr:     usleep(1000000 * sleeptime)
+2023-07-17 14:27:34,343 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\clock.py", line 965, in usleep
+2023-07-17 14:27:34,344 WARNING stderr:     _usleep(microseconds, self._sleep_obj)
+2023-07-17 14:27:34,344 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\clock.py", line 504, in _usleep
+2023-07-17 14:27:34,345 WARNING stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2023-07-17 14:27:34,346 WARNING stderr: KeyboardInterrupt

@@ -1,0 +1,59 @@
+2023-07-17 13:33:06,201 WARNING Config: Older configuration version detected (27 instead of 24)
+2023-07-17 13:33:06,204 WARNING Config: Upgrading configuration in progress.
+2023-07-17 13:33:06,250 INFO deps: Successfully imported "kivy_deps.angle" 0.3.3
+2023-07-17 13:33:06,251 INFO deps: Successfully imported "kivy_deps.glew" 0.3.1
+2023-07-17 13:33:06,252 INFO deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2023-07-17 13:33:06,253 INFO Kivy: v2.1.0
+2023-07-17 13:33:06,254 INFO Kivy: Installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\__init__.py"
+2023-07-17 13:33:06,256 INFO Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2023-07-17 13:33:06,257 INFO Python: Interpreter at "C:\Users\a.colas\PycharmProjects\heimdal\venv\Scripts\python.exe"
+2023-07-17 13:33:06,903 INFO Factory: 189 symbols loaded
+2023-07-17 13:33:07,789 INFO Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2023-07-17 13:33:08,337 INFO KivyMD: 1.1.1, git-Unknown, 2023-04-03 (installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivymd\__init__.py")
+2023-07-17 13:33:08,391 INFO Text: Provider: sdl2
+2023-07-17 13:33:08,767 INFO Window: Provider: sdl2
+2023-07-17 13:33:09,652 INFO GL: Using the "OpenGL" graphics system
+2023-07-17 13:33:09,674 INFO GL: GLEW initialization succeeded
+2023-07-17 13:33:09,675 INFO GL: Backend used <glew>
+2023-07-17 13:33:09,676 INFO GL: OpenGL version <b'4.6.0 Compatibility Profile Context 22.20.42.09.221129'>
+2023-07-17 13:33:09,677 INFO GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-07-17 13:33:09,678 INFO GL: OpenGL renderer <b'AMD Radeon(TM) Vega 3 Graphics'>
+2023-07-17 13:33:09,678 INFO GL: OpenGL parsed version: 4, 6
+2023-07-17 13:33:09,679 INFO GL: Shading version <b'4.60'>
+2023-07-17 13:33:09,680 INFO GL: Texture max size <16384>
+2023-07-17 13:33:09,680 INFO GL: Texture max units <32>
+2023-07-17 13:33:09,787 INFO Window: auto add sdl2 input provider
+2023-07-17 13:33:09,792 INFO Window: virtual keyboard not allowed, single mode, not docked
+2023-07-17 13:33:16,420 INFO Lancement de l'application
+2023-07-17 13:33:16,468 WARNING Factory: Ignored class "CustomTextInput" re-declaration. Current -  module: None, cls: <class 'MyApp.CustomTextInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-07-17 13:33:16,469 WARNING Factory: Ignored class "RoundedInput" re-declaration. Current -  module: None, cls: <class 'MyApp.RoundedInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-07-17 13:33:16,469 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 13:33:16,614 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 13:33:16,618 INFO Chargement des stats
+2023-07-17 13:33:16,693 INFO GL: NPOT texture support is available
+2023-07-17 13:33:16,709 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 13:33:16,772 WARNING Deprecated property "<VariableListProperty name=padding_x>" of object "<MyApp.RoundedInput object at 0x00000216781D22E0>" was accessed, it will be removed in a future version
+2023-07-17 13:33:16,847 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-17 13:33:17,003 INFO Chargement de la configuration
+2023-07-17 13:33:17,019 INFO Base: Start application main loop
+2023-07-17 14:22:38,663 INFO Base: Leaving application in progress...
+2023-07-17 14:22:38,726 WARNING stderr: Traceback (most recent call last):
+2023-07-17 14:22:38,726 WARNING stderr:   File "C:/Users/a.colas/PycharmProjects/heimdal/MyApp.py", line 554, in <module>
+2023-07-17 14:22:38,726 WARNING stderr:     MyApp().run()
+2023-07-17 14:22:38,726 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\app.py", line 955, in run
+2023-07-17 14:22:38,727 WARNING stderr:     runTouchApp()
+2023-07-17 14:22:38,727 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2023-07-17 14:22:38,727 WARNING stderr:     EventLoop.mainloop()
+2023-07-17 14:22:38,727 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\base.py", line 339, in mainloop
+2023-07-17 14:22:38,727 WARNING stderr:     self.idle()
+2023-07-17 14:22:38,727 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\base.py", line 379, in idle
+2023-07-17 14:22:38,727 WARNING stderr:     Clock.tick()
+2023-07-17 14:22:38,727 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+2023-07-17 14:22:38,727 WARNING stderr:     self.post_idle(ts, self.idle())
+2023-07-17 14:22:38,727 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\clock.py", line 689, in idle
+2023-07-17 14:22:38,728 WARNING stderr:     usleep(1000000 * sleeptime)
+2023-07-17 14:22:38,728 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\clock.py", line 965, in usleep
+2023-07-17 14:22:38,728 WARNING stderr:     _usleep(microseconds, self._sleep_obj)
+2023-07-17 14:22:38,728 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\clock.py", line 504, in _usleep
+2023-07-17 14:22:38,728 WARNING stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2023-07-17 14:22:38,728 WARNING stderr: KeyboardInterrupt

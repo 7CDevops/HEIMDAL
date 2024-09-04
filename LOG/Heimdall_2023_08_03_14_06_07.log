@@ -1,0 +1,59 @@
+2023-08-03 14:06:08,039 WARNING Config: Older configuration version detected (27 instead of 24)
+2023-08-03 14:06:08,039 WARNING Config: Upgrading configuration in progress.
+2023-08-03 14:06:08,047 INFO deps: Successfully imported "kivy_deps.angle" 0.3.3
+2023-08-03 14:06:08,048 INFO deps: Successfully imported "kivy_deps.glew" 0.3.1
+2023-08-03 14:06:08,048 INFO deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2023-08-03 14:06:08,049 INFO Kivy: v2.1.0
+2023-08-03 14:06:08,049 INFO Kivy: Installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\__init__.py"
+2023-08-03 14:06:08,049 INFO Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2023-08-03 14:06:08,050 INFO Python: Interpreter at "C:\Users\a.colas\PycharmProjects\heimdal\venv\Scripts\python.exe"
+2023-08-03 14:06:08,494 INFO Factory: 189 symbols loaded
+2023-08-03 14:06:08,794 INFO Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2023-08-03 14:06:09,060 INFO KivyMD: 1.1.1, git-Unknown, 2023-04-03 (installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivymd\__init__.py")
+2023-08-03 14:06:09,093 INFO Text: Provider: sdl2
+2023-08-03 14:06:09,322 INFO Window: Provider: sdl2
+2023-08-03 14:06:10,004 INFO GL: Using the "OpenGL" graphics system
+2023-08-03 14:06:10,026 INFO GL: GLEW initialization succeeded
+2023-08-03 14:06:10,027 INFO GL: Backend used <glew>
+2023-08-03 14:06:10,027 INFO GL: OpenGL version <b'4.6.0 Compatibility Profile Context 22.20.42.09.221129'>
+2023-08-03 14:06:10,027 INFO GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-08-03 14:06:10,028 INFO GL: OpenGL renderer <b'AMD Radeon(TM) Vega 3 Graphics'>
+2023-08-03 14:06:10,028 INFO GL: OpenGL parsed version: 4, 6
+2023-08-03 14:06:10,028 INFO GL: Shading version <b'4.60'>
+2023-08-03 14:06:10,028 INFO GL: Texture max size <16384>
+2023-08-03 14:06:10,028 INFO GL: Texture max units <32>
+2023-08-03 14:06:10,116 INFO Window: auto add sdl2 input provider
+2023-08-03 14:06:10,130 INFO Window: virtual keyboard not allowed, single mode, not docked
+2023-08-03 14:06:15,024 INFO Lancement de l'application
+2023-08-03 14:06:15,045 WARNING Factory: Ignored class "CustomTextInput" re-declaration. Current -  module: None, cls: <class 'MyApp.CustomTextInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-08-03 14:06:15,046 WARNING Factory: Ignored class "RoundedInput" re-declaration. Current -  module: None, cls: <class 'MyApp.RoundedInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-08-03 14:06:15,046 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-08-03 14:06:15,120 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-08-03 14:06:15,120 INFO Chargement des stats
+2023-08-03 14:06:15,254 INFO GL: NPOT texture support is available
+2023-08-03 14:06:15,258 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-08-03 14:06:15,295 WARNING Deprecated property "<VariableListProperty name=padding_x>" of object "<MyApp.RoundedInput object at 0x0000021A9155B660>" was accessed, it will be removed in a future version
+2023-08-03 14:06:15,364 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-08-03 14:06:15,479 INFO Chargement de la configuration
+2023-08-03 14:06:15,496 INFO Base: Start application main loop
+2023-08-03 14:06:39,308 INFO Recupération chemins de session et partage
+2023-08-03 14:06:39,311 INFO Chargement des contributeurs
+2023-08-03 14:06:39,311 INFO ====== WebDriver manager ======
+2023-08-03 14:06:41,728 INFO Get LATEST chromedriver version for google-chrome 115.0.5790
+2023-08-03 14:06:44,782 INFO There is no [win32] chromedriver for browser 115.0.5790 in cache
+2023-08-03 14:06:45,941 INFO Get LATEST chromedriver version for google-chrome 115.0.5790
+2023-08-03 14:06:47,100 INFO About to download new driver from https://chromedriver.storage.googleapis.com/115.0.5790/chromedriver_win32.zip
+2023-08-03 14:06:48,735 ERROR WP : Lancement de la nouvelle session impossible suite à une erreur inconnue.
+2023-08-03 14:06:48,738 INFO Lancement de la session
+2023-08-03 14:06:48,748 INFO Chargement de la configuration
+2023-08-03 14:06:48,749 WARNING stderr: Exception in thread listen:
+2023-08-03 14:06:48,750 WARNING stderr: Traceback (most recent call last):
+2023-08-03 14:06:48,750 WARNING stderr:   File "C:\Users\a.colas\AppData\Local\Programs\Python\Python39\lib\threading.py", line 980, in _bootstrap_inner
+2023-08-03 14:06:48,756 WARNING stderr:     self.run()
+2023-08-03 14:06:48,756 WARNING stderr:   File "C:\Users\a.colas\AppData\Local\Programs\Python\Python39\lib\threading.py", line 917, in run
+2023-08-03 14:06:48,757 WARNING stderr:     self._target(*self._args, **self._kwargs)
+2023-08-03 14:06:48,757 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\whatsapp.py", line 279, in listenNewMessage
+2023-08-03 14:06:48,761 WARNING stderr:     divContainer = self.browser.find_element(*WhatsAppElements.conversationDiv)
+2023-08-03 14:06:48,761 WARNING stderr: AttributeError: 'NoneType' object has no attribute 'find_element'
+2023-08-03 14:08:34,080 INFO Base: Leaving application in progress...
+2023-08-03 14:08:34,502 INFO Fermeture de Heimdall par l'utilisateur

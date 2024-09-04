@@ -1,0 +1,84 @@
+2023-08-03 14:19:12,003 INFO Kivy: v2.1.0
+2023-08-03 14:19:12,003 INFO Kivy: Installed at "C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI133522\kivy\__init__.pyc"
+2023-08-03 14:19:12,003 INFO Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2023-08-03 14:19:12,003 INFO Python: Interpreter at "C:\Users\a.colas\PycharmProjects\heimdal\dist\Heimdall.exe"
+2023-08-03 14:19:12,088 INFO Factory: 189 symbols loaded
+2023-08-03 14:19:12,150 INFO Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2023-08-03 14:19:12,288 INFO KivyMD: 1.1.1, git-Unknown, 2023-04-03 (installed at "C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI133522\kivymd\__init__.pyc")
+2023-08-03 14:19:12,288 INFO Text: Provider: sdl2
+2023-08-03 14:19:12,335 INFO Window: Provider: sdl2
+2023-08-03 14:19:12,598 INFO GL: Using the "OpenGL" graphics system
+2023-08-03 14:19:12,617 INFO GL: GLEW initialization succeeded
+2023-08-03 14:19:12,618 INFO GL: Backend used <glew>
+2023-08-03 14:19:12,618 INFO GL: OpenGL version <b'4.6.0 Compatibility Profile Context 22.20.42.09.221129'>
+2023-08-03 14:19:12,618 INFO GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-08-03 14:19:12,618 INFO GL: OpenGL renderer <b'AMD Radeon(TM) Vega 3 Graphics'>
+2023-08-03 14:19:12,618 INFO GL: OpenGL parsed version: 4, 6
+2023-08-03 14:19:12,619 INFO GL: Shading version <b'4.60'>
+2023-08-03 14:19:12,619 INFO GL: Texture max size <16384>
+2023-08-03 14:19:12,619 INFO GL: Texture max units <32>
+2023-08-03 14:19:12,660 INFO Window: auto add sdl2 input provider
+2023-08-03 14:19:12,663 INFO Window: virtual keyboard not allowed, single mode, not docked
+2023-08-03 14:19:13,632 INFO Lancement de l'application
+2023-08-03 14:19:13,648 WARNING Factory: Ignored class "CustomTextInput" re-declaration. Current -  module: None, cls: <class 'MyApp.CustomTextInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI133522\myapp.kv.
+2023-08-03 14:19:13,649 WARNING Factory: Ignored class "RoundedInput" re-declaration. Current -  module: None, cls: <class 'MyApp.RoundedInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI133522\myapp.kv.
+2023-08-03 14:19:13,678 INFO Chargement des stats
+2023-08-03 14:19:13,714 INFO GL: NPOT texture support is available
+2023-08-03 14:19:13,717 INFO GL: Unpack subimage support is available
+2023-08-03 14:19:13,746 WARNING Deprecated property "<VariableListProperty name=padding_x>" of object "<MyApp.RoundedInput object at 0x00000208C80244A0>" was accessed, it will be removed in a future version
+2023-08-03 14:19:13,807 INFO Chargement de la configuration
+2023-08-03 14:19:13,811 INFO Base: Start application main loop
+2023-08-03 14:19:14,548 INFO Recupération chemins de session et partage
+2023-08-03 14:19:14,550 INFO Chargement des contributeurs
+2023-08-03 14:19:20,308 INFO Lancement de la session WhatsApp avec la session renseignée
+2023-08-03 14:19:25,241 INFO Base: Leaving application in progress...
+2023-08-03 14:19:25,249 WARNING stderr: Traceback (most recent call last):
+2023-08-03 14:19:25,249 WARNING stderr:   File "MyApp.py", line 554, in <module>
+2023-08-03 14:19:25,250 WARNING stderr:   File "kivy\app.py", line 955, in run
+2023-08-03 14:19:25,250 WARNING stderr:   File "kivy\base.py", line 574, in runTouchApp
+2023-08-03 14:19:25,251 WARNING stderr:   File "kivy\base.py", line 339, in mainloop
+2023-08-03 14:19:25,251 WARNING stderr:   File "kivy\base.py", line 383, in idle
+2023-08-03 14:19:25,252 WARNING stderr:   File "kivy\base.py", line 334, in dispatch_input
+2023-08-03 14:19:25,253 WARNING stderr:   File "kivy\base.py", line 302, in post_dispatch_input
+2023-08-03 14:19:25,254 WARNING stderr:   File "kivy\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2023-08-03 14:19:25,254 WARNING stderr:   File "kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2023-08-03 14:19:25,255 WARNING stderr:   File "kivy\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2023-08-03 14:19:25,256 WARNING stderr:   File "kivy\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2023-08-03 14:19:25,256 WARNING stderr:   File "kivy\_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+2023-08-03 14:19:25,257 WARNING stderr:   File "kivy\lang\builder.py", line 55, in custom_callback
+2023-08-03 14:19:25,257 WARNING stderr:   File "C:\Users\A30C8~1.COL\AppData\Local\Temp\_MEI133522\myapp.kv", line 62, in <module>
+2023-08-03 14:19:25,258 WARNING stderr:     on_release: root.listeningWhatsAppSession()
+2023-08-03 14:19:25,258 WARNING stderr:   File "MyApp.py", line 140, in listeningWhatsAppSession
+2023-08-03 14:19:25,259 WARNING stderr:   File "whatsapp.py", line 196, in __init__
+2023-08-03 14:19:25,259 WARNING stderr:   File "whatsapp.py", line 127, in goToHomePage
+2023-08-03 14:19:25,259 WARNING stderr:   File "selenium\webdriver\support\wait.py", line 86, in until
+2023-08-03 14:19:25,260 WARNING stderr:   File "selenium\webdriver\support\expected_conditions.py", line 69, in _predicate
+2023-08-03 14:19:25,260 WARNING stderr:   File "selenium\webdriver\remote\webdriver.py", line 831, in find_element
+2023-08-03 14:19:25,261 WARNING stderr:   File "selenium\webdriver\remote\webdriver.py", line 440, in execute
+2023-08-03 14:19:25,261 WARNING stderr:   File "selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+2023-08-03 14:19:25,261 WARNING stderr: selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+2023-08-03 14:19:25,261 WARNING stderr: from unknown error: web view not found
+2023-08-03 14:19:25,262 WARNING stderr:   (Session info: chrome=115.0.5790.110)
+2023-08-03 14:19:25,262 WARNING stderr: Stacktrace:
+2023-08-03 14:19:25,262 WARNING stderr: Backtrace:
+2023-08-03 14:19:25,262 WARNING stderr: 	GetHandleVerifier [0x003A1C63+49427]
+2023-08-03 14:19:25,262 WARNING stderr: 	(No symbol) [0x00335F51]
+2023-08-03 14:19:25,262 WARNING stderr: 	(No symbol) [0x0023C64D]
+2023-08-03 14:19:25,262 WARNING stderr: 	(No symbol) [0x002232E5]
+2023-08-03 14:19:25,262 WARNING stderr: 	(No symbol) [0x0028868B]
+2023-08-03 14:19:25,262 WARNING stderr: 	(No symbol) [0x00296A63]
+2023-08-03 14:19:25,262 WARNING stderr: 	(No symbol) [0x00284816]
+2023-08-03 14:19:25,263 WARNING stderr: 	(No symbol) [0x00261127]
+2023-08-03 14:19:25,263 WARNING stderr: 	(No symbol) [0x002622AD]
+2023-08-03 14:19:25,263 WARNING stderr: 	GetHandleVerifier [0x005F7159+2496009]
+2023-08-03 14:19:25,263 WARNING stderr: 	GetHandleVerifier [0x0063D582+2783794]
+2023-08-03 14:19:25,263 WARNING stderr: 	GetHandleVerifier [0x006374A1+2758993]
+2023-08-03 14:19:25,263 WARNING stderr: 	GetHandleVerifier [0x004211E0+571024]
+2023-08-03 14:19:25,263 WARNING stderr: 	(No symbol) [0x0033F97A]
+2023-08-03 14:19:25,263 WARNING stderr: 	(No symbol) [0x0033BD98]
+2023-08-03 14:19:25,263 WARNING stderr: 	(No symbol) [0x0033BE7B]
+2023-08-03 14:19:25,263 WARNING stderr: 	(No symbol) [0x0032EAA7]
+2023-08-03 14:19:25,263 WARNING stderr: 	BaseThreadInitThunk [0x754000C9+25]
+2023-08-03 14:19:25,263 WARNING stderr: 	RtlGetAppContainerNamedObjectPath [0x770B7B1E+286]
+2023-08-03 14:19:25,263 WARNING stderr: 	RtlGetAppContainerNamedObjectPath [0x770B7AEE+238]
+2023-08-03 14:19:25,264 WARNING stderr: 

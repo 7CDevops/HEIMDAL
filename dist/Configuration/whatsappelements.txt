@@ -1,0 +1,12 @@
+[data-testid="chat-list-search"]
+[data-testid="chat-list"]
+[data-testid="cell-frame-container"]
+[data-testid="cell-frame-title"]
+[data-testid="icon-unread-count"]
+#main > div._3B19s > div > div._5kRIK > div.n5hs2j7m.oq31bsqd.gx1rr48f.qh5tioqs
+[dir="ltr"]
+[class="_2ne0X ggj6brxn gfz4du6o r7fjleex g0rxnol2 lhj4utae le5p0ye3 ajgl1lbb edeob0r2 _11JPr"]
+[data-testid="conversation-compose-box-input"]
+[data-testid="msg-time"]
+[data-testid="msg-check"]
+[data-testid="msg-dblcheck"]

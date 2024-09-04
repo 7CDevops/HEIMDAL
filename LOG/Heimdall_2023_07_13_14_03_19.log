@@ -1,0 +1,394 @@
+2023-07-13 14:03:20,007 INFO deps: Successfully imported "kivy_deps.angle" 0.3.3
+2023-07-13 14:03:20,007 INFO deps: Successfully imported "kivy_deps.glew" 0.3.1
+2023-07-13 14:03:20,007 INFO deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2023-07-13 14:03:20,008 INFO Kivy: v2.1.0
+2023-07-13 14:03:20,008 INFO Kivy: Installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivy\__init__.py"
+2023-07-13 14:03:20,008 INFO Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2023-07-13 14:03:20,009 INFO Python: Interpreter at "C:\Users\a.colas\PycharmProjects\heimdal\venv\Scripts\python.exe"
+2023-07-13 14:03:20,349 INFO Factory: 189 symbols loaded
+2023-07-13 14:03:20,485 INFO Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2023-07-13 14:03:20,791 INFO KivyMD: 1.1.1, git-Unknown, 2023-04-03 (installed at "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\kivymd\__init__.py")
+2023-07-13 14:03:20,807 INFO Text: Provider: sdl2
+2023-07-13 14:03:20,873 INFO Window: Provider: sdl2
+2023-07-13 14:03:21,165 INFO GL: Using the "OpenGL" graphics system
+2023-07-13 14:03:21,210 INFO GL: GLEW initialization succeeded
+2023-07-13 14:03:21,211 INFO GL: Backend used <glew>
+2023-07-13 14:03:21,211 INFO GL: OpenGL version <b'4.6.0 Compatibility Profile Context 22.20.42.09.221129'>
+2023-07-13 14:03:21,212 INFO GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-07-13 14:03:21,212 INFO GL: OpenGL renderer <b'AMD Radeon(TM) Vega 3 Graphics'>
+2023-07-13 14:03:21,215 INFO GL: OpenGL parsed version: 4, 6
+2023-07-13 14:03:21,216 INFO GL: Shading version <b'4.60'>
+2023-07-13 14:03:21,216 INFO GL: Texture max size <16384>
+2023-07-13 14:03:21,221 INFO GL: Texture max units <32>
+2023-07-13 14:03:21,287 INFO Window: auto add sdl2 input provider
+2023-07-13 14:03:21,289 INFO Window: virtual keyboard not allowed, single mode, not docked
+2023-07-13 14:03:23,517 INFO Lancement de l'application
+2023-07-13 14:03:23,544 WARNING Factory: Ignored class "CustomTextInput" re-declaration. Current -  module: None, cls: <class 'MyApp.CustomTextInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-07-13 14:03:23,544 WARNING Factory: Ignored class "RoundedInput" re-declaration. Current -  module: None, cls: <class 'MyApp.RoundedInput'>, baseclass: None, filename: None. Ignored -  module: None, cls: None, baseclass: TextInput, filename: C:\Users\a.colas\PycharmProjects\heimdal\myapp.kv.
+2023-07-13 14:03:23,545 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-13 14:03:23,596 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-13 14:03:23,597 INFO Chargement des stats
+2023-07-13 14:03:23,663 INFO GL: NPOT texture support is available
+2023-07-13 14:03:23,669 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-13 14:03:23,702 WARNING Deprecated property "<VariableListProperty name=padding_x>" of object "<MyApp.RoundedInput object at 0x0000016CDD5585F0>" was accessed, it will be removed in a future version
+2023-07-13 14:03:23,737 ERROR module 'sys' has no attribute '_MEIPASS'
+2023-07-13 14:03:23,872 INFO Chargement de la configuration
+2023-07-13 14:03:23,877 INFO Base: Start application main loop
+2023-07-13 14:03:25,274 INFO Recupération chemins de session et partage
+2023-07-13 14:03:25,276 INFO Chargement des contributeurs
+2023-07-13 14:03:25,276 INFO ====== WebDriver manager ======
+2023-07-13 14:03:27,150 INFO Get LATEST chromedriver version for google-chrome 114.0.5735
+2023-07-13 14:03:28,830 INFO Driver [C:\Users\a.colas\.wdm\drivers\chromedriver\win32\114.0.5735\chromedriver.exe] found in cache
+2023-07-13 14:03:30,950 INFO Lancement de la session WhatsApp avec la session renseignée
+2023-07-13 14:03:43,392 INFO Lancement de la session
+2023-07-13 14:03:43,405 INFO Chargement de la configuration
+2023-07-13 14:04:11,731 INFO Retrieving guest token
+2023-07-13 14:04:11,733 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:04:12,326 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:04:12,328 INFO Retrieving guest token via API
+2023-07-13 14:04:12,329 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:04:12,614 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:04:12,616 INFO Retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+2023-07-13 14:04:12,750 INFO Retrieved https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: 404
+2023-07-13 14:04:12,750 INFO Retrieving guest token
+2023-07-13 14:04:12,752 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:04:13,205 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:04:13,207 INFO Retrieving guest token via API
+2023-07-13 14:04:13,208 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:04:13,348 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:04:13,348 INFO Error retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: blocked (404), retrying
+2023-07-13 14:04:13,348 INFO Waiting 1 seconds
+2023-07-13 14:04:14,351 INFO Retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+2023-07-13 14:04:14,491 INFO Retrieved https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: 404
+2023-07-13 14:04:14,491 INFO Retrieving guest token
+2023-07-13 14:04:14,493 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:04:14,937 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:04:14,938 INFO Retrieving guest token via API
+2023-07-13 14:04:14,940 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:04:15,067 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:04:15,067 INFO Error retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: blocked (404), retrying
+2023-07-13 14:04:15,067 INFO Waiting 2 seconds
+2023-07-13 14:04:17,070 INFO Retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+2023-07-13 14:04:17,203 INFO Retrieved https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: 404
+2023-07-13 14:04:17,204 INFO Retrieving guest token
+2023-07-13 14:04:17,205 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:04:17,660 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:04:17,660 INFO Retrieving guest token via API
+2023-07-13 14:04:17,662 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:04:17,797 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:04:17,797 INFO Error retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: blocked (404), retrying
+2023-07-13 14:04:17,797 INFO Waiting 4 seconds
+2023-07-13 14:04:21,799 INFO Retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+2023-07-13 14:04:21,936 INFO Retrieved https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: 404
+2023-07-13 14:04:21,936 INFO Retrieving guest token
+2023-07-13 14:04:21,938 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:04:22,387 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:04:22,389 INFO Retrieving guest token via API
+2023-07-13 14:04:22,391 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:04:22,521 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:04:22,521 ERROR Error retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: blocked (404)
+2023-07-13 14:04:22,522 CRITICAL 4 requests to https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D failed, giving up.
+2023-07-13 14:04:22,522 CRITICAL Errors: blocked (404), blocked (404), blocked (404), blocked (404)
+2023-07-13 14:04:22,522 ERROR listContributeurs : 4 requests to https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D failed, giving up.
+2023-07-13 14:08:48,294 WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2023-07-13 14:08:49,013 ERROR ListenNewMessage : Message: invalid session id
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00C9A813+48355]
+	(No symbol) [0x00C2C4B1]
+	(No symbol) [0x00B35220]
+	(No symbol) [0x00B57C7C]
+	(No symbol) [0x00B7A636]
+	(No symbol) [0x00B770CD]
+	(No symbol) [0x00B76B3A]
+	(No symbol) [0x00B15311]
+	(No symbol) [0x00B1571E]
+	(No symbol) [0x00B15AFA]
+	GetHandleVerifier [0x00EFAABD+2539405]
+	GetHandleVerifier [0x00F3A78F+2800735]
+	GetHandleVerifier [0x00F3456C+2775612]
+	GetHandleVerifier [0x00D251E0+616112]
+	(No symbol) [0x00C35F8C]
+	(No symbol) [0x00B14F64]
+	(No symbol) [0x00B14912]
+	GetHandleVerifier [0x00F6159C+2959980]
+	BaseThreadInitThunk [0x774A00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+
+2023-07-13 14:08:49,016 ERROR ListenNewMessage : Message: invalid session id
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00C9A813+48355]
+	(No symbol) [0x00C2C4B1]
+	(No symbol) [0x00B35220]
+	(No symbol) [0x00B57C7C]
+	(No symbol) [0x00B7A636]
+	(No symbol) [0x00B770CD]
+	(No symbol) [0x00B76B3A]
+	(No symbol) [0x00B15311]
+	(No symbol) [0x00B1571E]
+	(No symbol) [0x00B15AFA]
+	GetHandleVerifier [0x00EFAABD+2539405]
+	GetHandleVerifier [0x00F3A78F+2800735]
+	GetHandleVerifier [0x00F3456C+2775612]
+	GetHandleVerifier [0x00D251E0+616112]
+	(No symbol) [0x00C35F8C]
+	(No symbol) [0x00B14F64]
+	(No symbol) [0x00B14912]
+	GetHandleVerifier [0x00F6159C+2959980]
+	BaseThreadInitThunk [0x774A00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+
+2023-07-13 14:08:49,020 ERROR ListenNewMessage : Message: invalid session id
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00C9A813+48355]
+	(No symbol) [0x00C2C4B1]
+	(No symbol) [0x00B35220]
+	(No symbol) [0x00B57C7C]
+	(No symbol) [0x00B7A636]
+	(No symbol) [0x00B770CD]
+	(No symbol) [0x00B76B3A]
+	(No symbol) [0x00B15311]
+	(No symbol) [0x00B1571E]
+	(No symbol) [0x00B15AFA]
+	GetHandleVerifier [0x00EFAABD+2539405]
+	GetHandleVerifier [0x00F3A78F+2800735]
+	GetHandleVerifier [0x00F3456C+2775612]
+	GetHandleVerifier [0x00D251E0+616112]
+	(No symbol) [0x00C35F8C]
+	(No symbol) [0x00B14F64]
+	(No symbol) [0x00B14912]
+	GetHandleVerifier [0x00F6159C+2959980]
+	BaseThreadInitThunk [0x774A00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+
+2023-07-13 14:08:49,021 INFO Chargement de la configuration
+2023-07-13 14:08:49,025 ERROR Rapport : max() arg is an empty sequence
+2023-07-13 14:08:49,028 ERROR ListenNewMessage session ID : Message: invalid session id
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00C9A813+48355]
+	(No symbol) [0x00C2C4B1]
+	(No symbol) [0x00B35220]
+	(No symbol) [0x00B57C7C]
+	(No symbol) [0x00B7A636]
+	(No symbol) [0x00B770CD]
+	(No symbol) [0x00B76B3A]
+	(No symbol) [0x00B15311]
+	(No symbol) [0x00B1571E]
+	(No symbol) [0x00B15AFA]
+	GetHandleVerifier [0x00EFAABD+2539405]
+	GetHandleVerifier [0x00F3A78F+2800735]
+	GetHandleVerifier [0x00F3456C+2775612]
+	GetHandleVerifier [0x00D251E0+616112]
+	(No symbol) [0x00C35F8C]
+	(No symbol) [0x00B14F64]
+	(No symbol) [0x00B14912]
+	GetHandleVerifier [0x00F6159C+2959980]
+	BaseThreadInitThunk [0x774A00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+
+2023-07-13 14:09:02,639 INFO Sauvegarde de la configuration
+2023-07-13 14:09:04,487 INFO Recupération chemins de session et partage
+2023-07-13 14:09:04,489 INFO Chargement des contributeurs
+2023-07-13 14:09:04,490 INFO ====== WebDriver manager ======
+2023-07-13 14:09:05,567 INFO Get LATEST chromedriver version for google-chrome 114.0.5735
+2023-07-13 14:09:06,775 INFO Driver [C:\Users\a.colas\.wdm\drivers\chromedriver\win32\114.0.5735\chromedriver.exe] found in cache
+2023-07-13 14:09:08,375 INFO Lancement de la session WhatsApp avec la session renseignée
+2023-07-13 14:09:17,237 INFO Lancement de la session
+2023-07-13 14:09:17,242 INFO Chargement de la configuration
+2023-07-13 14:09:19,524 INFO Retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+2023-07-13 14:09:19,745 INFO Retrieved https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: 404
+2023-07-13 14:09:19,745 INFO Retrieving guest token
+2023-07-13 14:09:19,747 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:09:20,187 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:09:20,189 INFO Retrieving guest token via API
+2023-07-13 14:09:20,192 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:09:20,424 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:09:20,424 INFO Error retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: blocked (404), retrying
+2023-07-13 14:09:20,424 INFO Waiting 1 seconds
+2023-07-13 14:09:21,428 INFO Retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+2023-07-13 14:09:21,565 INFO Retrieved https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: 404
+2023-07-13 14:09:21,565 INFO Retrieving guest token
+2023-07-13 14:09:21,567 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:09:22,044 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:09:22,046 INFO Retrieving guest token via API
+2023-07-13 14:09:22,048 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:09:22,181 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:09:22,182 INFO Error retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: blocked (404), retrying
+2023-07-13 14:09:22,182 INFO Waiting 2 seconds
+2023-07-13 14:09:24,188 INFO Retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+2023-07-13 14:09:24,334 INFO Retrieved https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: 404
+2023-07-13 14:09:24,334 INFO Retrieving guest token
+2023-07-13 14:09:24,337 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:09:24,824 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:09:24,825 INFO Retrieving guest token via API
+2023-07-13 14:09:24,826 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:09:24,953 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:09:24,954 INFO Error retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: blocked (404), retrying
+2023-07-13 14:09:24,954 INFO Waiting 4 seconds
+2023-07-13 14:09:28,957 INFO Retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D
+2023-07-13 14:09:29,088 INFO Retrieved https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: 404
+2023-07-13 14:09:29,088 INFO Retrieving guest token
+2023-07-13 14:09:29,090 INFO Retrieving https://twitter.com/i/web/status/1656044845788479523
+2023-07-13 14:09:29,554 INFO Retrieved https://twitter.com/i/web/status/1656044845788479523 (redirected to https://twitter.com/i/flow/login?redirect_after_login=%2Fi%2Fweb%2Fstatus%2F1656044845788479523): 200
+2023-07-13 14:09:29,555 INFO Retrieving guest token via API
+2023-07-13 14:09:29,557 INFO Retrieving https://api.twitter.com/1.1/guest/activate.json
+2023-07-13 14:09:29,694 INFO Retrieved https://api.twitter.com/1.1/guest/activate.json: 200
+2023-07-13 14:09:29,694 ERROR Error retrieving https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D: blocked (404)
+2023-07-13 14:09:29,695 CRITICAL 4 requests to https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D failed, giving up.
+2023-07-13 14:09:29,695 CRITICAL Errors: blocked (404), blocked (404), blocked (404), blocked (404)
+2023-07-13 14:09:29,695 ERROR listContributeurs : 4 requests to https://twitter.com/i/api/graphql/NNiD2K-nEYUfXlMwGCocMQ/TweetDetail?variables=%7B%22focalTweetId%22%3A%221656044845788479523%22%2C%22with_rux_injections%22%3Afalse%2C%22includePromotedContent%22%3Atrue%2C%22withCommunity%22%3Atrue%2C%22withQuickPromoteEligibilityTweetFields%22%3Atrue%2C%22withBirdwatchNotes%22%3Afalse%2C%22withSuperFollowsUserFields%22%3Atrue%2C%22withDownvotePerspective%22%3Afalse%2C%22withReactionsMetadata%22%3Afalse%2C%22withReactionsPerspective%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Atrue%2C%22withVoice%22%3Atrue%2C%22withV2Timeline%22%3Atrue%7D&features=%7B%22responsive_web_twitter_blue_verified_badge_is_enabled%22%3Atrue%2C%22responsive_web_graphql_exclude_directive_enabled%22%3Afalse%2C%22verified_phone_label_enabled%22%3Afalse%2C%22responsive_web_graphql_timeline_navigation_enabled%22%3Atrue%2C%22responsive_web_graphql_skip_user_profile_image_extensions_enabled%22%3Afalse%2C%22tweetypie_unmention_optimization_enabled%22%3Atrue%2C%22vibe_api_enabled%22%3Atrue%2C%22responsive_web_edit_tweet_api_enabled%22%3Atrue%2C%22graphql_is_translatable_rweb_tweet_is_translatable_enabled%22%3Atrue%2C%22view_counts_everywhere_api_enabled%22%3Atrue%2C%22longform_notetweets_consumption_enabled%22%3Atrue%2C%22tweet_awards_web_tipping_enabled%22%3Afalse%2C%22freedom_of_speech_not_reach_fetch_enabled%22%3Afalse%2C%22standardized_nudges_misinfo%22%3Atrue%2C%22tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled%22%3Afalse%2C%22interactive_text_enabled%22%3Atrue%2C%22responsive_web_text_conversations_enabled%22%3Afalse%2C%22responsive_web_enhance_cards_enabled%22%3Afalse%7D failed, giving up.
+2023-07-13 14:28:40,728 INFO Base: Leaving application in progress...
+2023-07-13 14:28:40,873 INFO Fermeture de Heimdall par l'utilisateur
+2023-07-13 14:29:29,413 ERROR ListeningForNewMessage : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00C9A813+48355]
+	(No symbol) [0x00C2C4B1]
+	(No symbol) [0x00B35358]
+	(No symbol) [0x00B1D293]
+	(No symbol) [0x00B7E37B]
+	(No symbol) [0x00B8C473]
+	(No symbol) [0x00B7A536]
+	(No symbol) [0x00B582DC]
+	(No symbol) [0x00B593DD]
+	GetHandleVerifier [0x00EFAABD+2539405]
+	GetHandleVerifier [0x00F3A78F+2800735]
+	GetHandleVerifier [0x00F3456C+2775612]
+	GetHandleVerifier [0x00D251E0+616112]
+	(No symbol) [0x00C35F8C]
+	(No symbol) [0x00C32328]
+	(No symbol) [0x00C3240B]
+	(No symbol) [0x00C24FF7]
+	BaseThreadInitThunk [0x774A00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+
+2023-07-13 14:29:29,416 ERROR ListenNewMessage : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00C9A813+48355]
+	(No symbol) [0x00C2C4B1]
+	(No symbol) [0x00B35358]
+	(No symbol) [0x00B1D293]
+	(No symbol) [0x00B7E37B]
+	(No symbol) [0x00B8C473]
+	(No symbol) [0x00B7A536]
+	(No symbol) [0x00B582DC]
+	(No symbol) [0x00B593DD]
+	GetHandleVerifier [0x00EFAABD+2539405]
+	GetHandleVerifier [0x00F3A78F+2800735]
+	GetHandleVerifier [0x00F3456C+2775612]
+	GetHandleVerifier [0x00D251E0+616112]
+	(No symbol) [0x00C35F8C]
+	(No symbol) [0x00C32328]
+	(No symbol) [0x00C3240B]
+	(No symbol) [0x00C24FF7]
+	BaseThreadInitThunk [0x774A00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+
+2023-07-13 14:29:29,419 ERROR ListenNewMessage : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00C9A813+48355]
+	(No symbol) [0x00C2C4B1]
+	(No symbol) [0x00B35358]
+	(No symbol) [0x00B1D293]
+	(No symbol) [0x00B7E37B]
+	(No symbol) [0x00B8C473]
+	(No symbol) [0x00B7A536]
+	(No symbol) [0x00B582DC]
+	(No symbol) [0x00B593DD]
+	GetHandleVerifier [0x00EFAABD+2539405]
+	GetHandleVerifier [0x00F3A78F+2800735]
+	GetHandleVerifier [0x00F3456C+2775612]
+	GetHandleVerifier [0x00D251E0+616112]
+	(No symbol) [0x00C35F8C]
+	(No symbol) [0x00C32328]
+	(No symbol) [0x00C3240B]
+	(No symbol) [0x00C24FF7]
+	BaseThreadInitThunk [0x774A00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+
+2023-07-13 14:29:29,421 ERROR ListenNewMessage : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00C9A813+48355]
+	(No symbol) [0x00C2C4B1]
+	(No symbol) [0x00B35358]
+	(No symbol) [0x00B1D293]
+	(No symbol) [0x00B7E37B]
+	(No symbol) [0x00B8C473]
+	(No symbol) [0x00B7A536]
+	(No symbol) [0x00B582DC]
+	(No symbol) [0x00B593DD]
+	GetHandleVerifier [0x00EFAABD+2539405]
+	GetHandleVerifier [0x00F3A78F+2800735]
+	GetHandleVerifier [0x00F3456C+2775612]
+	GetHandleVerifier [0x00D251E0+616112]
+	(No symbol) [0x00C35F8C]
+	(No symbol) [0x00C32328]
+	(No symbol) [0x00C3240B]
+	(No symbol) [0x00C24FF7]
+	BaseThreadInitThunk [0x774A00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+
+2023-07-13 14:29:29,423 INFO Chargement de la configuration
+2023-07-13 14:29:29,423 ERROR Rapport : max() arg is an empty sequence
+2023-07-13 14:29:29,425 WARNING stderr: Exception in thread listen:
+2023-07-13 14:29:29,426 WARNING stderr: Traceback (most recent call last):
+2023-07-13 14:29:29,426 WARNING stderr:   File "C:\Users\a.colas\AppData\Local\Programs\Python\Python39\lib\threading.py", line 980, in _bootstrap_inner
+2023-07-13 14:29:29,430 WARNING stderr:     self.run()
+2023-07-13 14:29:29,430 WARNING stderr:   File "C:\Users\a.colas\AppData\Local\Programs\Python\Python39\lib\threading.py", line 917, in run
+2023-07-13 14:29:29,431 WARNING stderr:     self._target(*self._args, **self._kwargs)
+2023-07-13 14:29:29,431 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\whatsapp.py", line 279, in listenNewMessage
+2023-07-13 14:29:29,432 WARNING stderr:     divContainer = self.browser.find_element(*WhatsAppElements.conversationDiv)
+2023-07-13 14:29:29,433 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 831, in find_element
+2023-07-13 14:29:29,434 WARNING stderr:     return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+2023-07-13 14:29:29,434 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+2023-07-13 14:29:29,435 WARNING stderr:     self.error_handler.check_response(response)
+2023-07-13 14:29:29,435 WARNING stderr:   File "C:\Users\a.colas\PycharmProjects\heimdal\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+2023-07-13 14:29:29,435 WARNING stderr:     raise exception_class(message, screen, stacktrace)
+2023-07-13 14:29:29,436 WARNING stderr: selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+2023-07-13 14:29:29,436 WARNING stderr: from unknown error: web view not found
+2023-07-13 14:29:29,436 WARNING stderr:   (Session info: chrome=114.0.5735.199)
+2023-07-13 14:29:29,436 WARNING stderr: Stacktrace:
+2023-07-13 14:29:29,436 WARNING stderr: Backtrace:
+2023-07-13 14:29:29,436 WARNING stderr: 	GetHandleVerifier [0x00C9A813+48355]
+2023-07-13 14:29:29,436 WARNING stderr: 	(No symbol) [0x00C2C4B1]
+2023-07-13 14:29:29,436 WARNING stderr: 	(No symbol) [0x00B35358]
+2023-07-13 14:29:29,436 WARNING stderr: 	(No symbol) [0x00B1D293]
+2023-07-13 14:29:29,436 WARNING stderr: 	(No symbol) [0x00B7E37B]
+2023-07-13 14:29:29,436 WARNING stderr: 	(No symbol) [0x00B8C473]
+2023-07-13 14:29:29,436 WARNING stderr: 	(No symbol) [0x00B7A536]
+2023-07-13 14:29:29,437 WARNING stderr: 	(No symbol) [0x00B582DC]
+2023-07-13 14:29:29,437 WARNING stderr: 	(No symbol) [0x00B593DD]
+2023-07-13 14:29:29,437 WARNING stderr: 	GetHandleVerifier [0x00EFAABD+2539405]
+2023-07-13 14:29:29,437 WARNING stderr: 	GetHandleVerifier [0x00F3A78F+2800735]
+2023-07-13 14:29:29,437 WARNING stderr: 	GetHandleVerifier [0x00F3456C+2775612]
+2023-07-13 14:29:29,437 WARNING stderr: 	GetHandleVerifier [0x00D251E0+616112]
+2023-07-13 14:29:29,437 WARNING stderr: 	(No symbol) [0x00C35F8C]
+2023-07-13 14:29:29,437 WARNING stderr: 	(No symbol) [0x00C32328]
+2023-07-13 14:29:29,437 WARNING stderr: 	(No symbol) [0x00C3240B]
+2023-07-13 14:29:29,437 WARNING stderr: 	(No symbol) [0x00C24FF7]
+2023-07-13 14:29:29,437 WARNING stderr: 	BaseThreadInitThunk [0x774A00C9+25]
+2023-07-13 14:29:29,437 WARNING stderr: 	RtlGetAppContainerNamedObjectPath [0x777F7B1E+286]
+2023-07-13 14:29:29,437 WARNING stderr: 	RtlGetAppContainerNamedObjectPath [0x777F7AEE+238]
+2023-07-13 14:29:29,437 WARNING stderr: 
